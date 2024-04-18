@@ -11,28 +11,27 @@ public class Coll {
         Map<Integer, String> map = new HashMap();
         List<String> list = new ArrayList<>();
 
-//        set.add(5);
-//        set.add(4);
-//        set.add(3);
-//
-//        for (Integer value: set) {
-//            System.out.println(value);
-//        }
-//
-//        list.add("brito");
-//        list.add("jean");
-//        list.add("dinarte");
-//        list.add("rafael");
-//        list.add("julia");
-//
-//        Collections.sort(list);
-//
-//        for (String value: list) {
-//            System.out.println(value);
-//        }
+        set.add(5);
+        set.add(4);
+        set.add(3);
 
-        set.add(new Aluno("MARIA"));
-        set.add(new Aluno("ana"));
+        for (Integer value: set) {
+            System.out.println(value);
+        }
+
+        list.add("brito");
+        list.add("jean");
+        list.add("dinarte");
+        list.add("rafael");
+        list.add("julia");
+
+        Collections.sort(list);
+
+        for (String value: list) {
+            System.out.println(value);
+        }
+
+
 
 
     }
